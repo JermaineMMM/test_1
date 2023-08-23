@@ -1,10 +1,17 @@
 body {
-  background-color: beige; }
+  background-color: beige;
+  font-family: 'Courier New', Courier, monospace; }
   body h1 {
     color: black; }
   body .search {
     color: black; }
   body .button_submit {
     color: black; }
+  body .profile {
+    border: 1px solid pink;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px; }
 
 /*# sourceMappingURL=main.css.map */
