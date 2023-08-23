@@ -2,16 +2,26 @@ body {
   background-color: beige;
   font-family: 'Courier New', Courier, monospace; }
   body h1 {
+    text-align: center;
     color: black; }
   body .search {
+    text-align: center;
     color: black; }
   body .button_submit {
+    text-align: center;
     color: black; }
+  body .button_pic_container {
+    position: relative; }
   body .profile {
-    border: 1px solid pink;
-    border-radius: 20px;
+    border: 1px solid #f37b8f;
+    background-color: #f37b8f;
+    border-radius: 30px;
     font-size: 20px;
     padding: 5px;
-    margin: 10px; }
+    margin: 10px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0; }
 
 /*# sourceMappingURL=main.css.map */

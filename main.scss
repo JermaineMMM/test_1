@@ -1,26 +1,35 @@
-$align: text-align;
+$align: center;
+$color: rgb(243, 123, 143);
 
 body{
 	background-color: beige;
 	font-family: 'Courier New', Courier, monospace;
 	h1{
-  		$align: center;
+  		text-align: $align;
   		color: black;
 	}
 	.search{
-		$align: center;
+		text-align: $align;
 		color: black;
 	}
 	.button_submit{
-		$align: center;
+		text-align: $align;
 		color: black;
 	}
+	.button_pic_container{
+		position: relative;
+	}
 	.profile{
-		border: 1px solid pink;
-		border-radius: 20px;
+		border: 1px solid $color;
+		background-color: $color;
+		border-radius: 30px;
 		font-size: 20px;
 		padding: 5px;
 		margin: 10px;
-		$align: right;
+		text-align: right;
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
+	
 }
