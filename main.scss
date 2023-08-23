@@ -14,5 +14,13 @@ body{
 	.button_submit{
 		$align: center;
 		color: black;
-	}	
+	}
+	.profile{
+		border: 1px solid pink;
+		border-radius: 20px;
+		font-size: 20px;
+		padding: 5px;
+		margin: 10px;
+		$align: right;
+	}
 }
