@@ -1,0 +1,17 @@
+$align: text-align;
+
+body{
+	background-color: beige;
+	h1{
+  		$align: center;
+  		color: black;
+	}
+	.search{
+		$align: center;
+		color: black;
+	}
+	.button_submit{
+		$align: center;
+		color: black;
+	}	
+}
