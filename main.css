@@ -13,15 +13,17 @@ body {
   body .button_pic_container {
     position: relative; }
   body .profile {
+    background-image: url("profile_pic.jpeg");
     border: 1px solid #f37b8f;
-    background-color: #f37b8f;
-    border-radius: 30px;
-    font-size: 20px;
-    padding: 5px;
-    margin: 10px;
-    text-align: right;
+    border-radius: 20px;
+    padding: 15px;
+    right: 20px;
+    top: -50px;
     position: absolute;
-    top: 0;
-    right: 0; }
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
